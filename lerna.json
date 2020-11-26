@@ -1,0 +1,16 @@
+{
+  "version": "independent",
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "allowBranch": "master",
+      "registry": "https://npm.pkg.github.com"
+    },
+    "version": {
+      "message": "Publish :fire:"
+    }
+  }
+}

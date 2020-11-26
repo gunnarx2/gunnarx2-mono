@@ -1,0 +1,29 @@
+{
+  "name": "@gunnarx2/{{package-name}}",
+  "version": "0.0.0",
+  "private": false,
+  "description": "Lorem ipsum dolor sit amet",
+  "main": "lib/index.js",
+  "author": "gunnarx2",
+  "license": "MIT",
+  "homepage": "https://github.com/gunnarx2/gunnarx2/tree/master/packages/{{package-name}}#readme",
+  "scripts": {
+    "build": "babel src -d lib --extensions .js --config-file ../../babel.config.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunnarx2/gunnarx2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gunnarx2/gunnarx2/issues"
+  }
+}

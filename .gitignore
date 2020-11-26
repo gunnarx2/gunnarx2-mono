@@ -1,0 +1,17 @@
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# dependencies
+node_modules/
+
+# dotenv
+.env*
+
+# lib
+lib/
+
+# misc
+.DS_Store
