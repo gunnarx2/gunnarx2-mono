@@ -12,7 +12,7 @@
     "lerna:publish": "lerna publish from-package --yes",
     "lerna:add": "lerna add",
     "lerna:clean": "rm -rf node_modules && lerna clean --yes && lerna exec -- rm -rf ./lib",
-    "lerna:version:pre": "npm-run-all root:install:ci lerna:bootstrap:ci lerna:run:typescript lerna:run:build eslint:report lerna:run:test:ci",
+    "lerna:version:pre": "npm-run-all root:install:ci lerna:bootstrap:ci lerna:run:typescript lerna:run:build lerna:run:test:ci",
     "lerna:version:patch": "yarn lerna:version:pre && lerna version patch",
     "lerna:version:minor": "yarn lerna:version:pre && lerna version minor",
     "lerna:version:major": "yarn lerna:version:pre && lerna version major",
