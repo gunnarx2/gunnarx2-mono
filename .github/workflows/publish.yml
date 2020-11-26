@@ -1,0 +1,35 @@
+name: Publish 📣
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  publish:
+    name: Publish packages 🔥
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 👉
+        uses: actions/checkout@v2
+      - name: Node.js 💚
+        uses: actions/setup-node@v1
+        with:
+          always-auth: true
+          node-version: '12.x'
+          registry-url: https://registry.npmjs.org
+          scope: '@gunnarx2'
+      - name: Install dependencies 🛠
+        run: yarn root:install:ci
+      - name: Bootstrap 👢
+        run: yarn lerna:bootstrap:ci
+      - name: TypeScript 🌟
+        run: yarn lerna:run:typescript
+      - name: Build 🏗
+        run: yarn lerna:run:build
+      - name: Test 🖖
+        run: yarn lerna:run:test:ci
+      - name: Publish 🎉
+        run: yarn lerna:publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTOMATION_TOKEN}}
