@@ -3,7 +3,7 @@
   "private": false,
   "author": "gunnarx2",
   "license": "MIT",
-  "homepage": "https://github.com/gunnarx2/gunnarx2#readme",
+  "homepage": "https://github.com/gunnarx2/gunnarx2-mono#readme",
   "scripts": {
     "root:setup": "npm-run-all lerna:clean root:install lerna:bootstrap lerna:run:typescript lerna:run:build",
     "root:create": "ts-node scripts/create",
@@ -73,9 +73,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gunnarx2/gunnarx2.git"
+    "url": "git+https://github.com/gunnarx2/gunnarx2-mono.git"
   },
   "bugs": {
-    "url": "https://github.com/gunnarx2/gunnarx2/issues"
+    "url": "https://github.com/gunnarx2/gunnarx2-mono/issues"
   }
 }

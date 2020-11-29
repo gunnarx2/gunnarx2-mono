@@ -8,7 +8,7 @@
   "module": "lib/index.js",
   "author": "gunnarx2",
   "license": "MIT",
-  "homepage": "https://github.com/gunnarx2/gunnarx2/tree/master/packages/prettier#readme",
+  "homepage": "https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/prettier#readme",
   "scripts": {
     "build": "babel src -d lib --copy-files"
   },
@@ -23,12 +23,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gunnarx2/gunnarx2.git"
+    "url": "git+https://github.com/gunnarx2/gunnarx2-mono.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/gunnarx2/gunnarx2/issues"
+    "url": "https://github.com/gunnarx2/gunnarx2-mono/issues"
   }
 }
