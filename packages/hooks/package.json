@@ -1,0 +1,51 @@
+{
+  "name": "@gunnarx2/hooks",
+  "version": "3.0.0",
+  "private": false,
+  "description": "Collection of React hooks",
+  "main": "lib/umd/index.js",
+  "unpkg": "lib/umd/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/types/index.d.ts",
+  "author": "gunnarx2",
+  "license": "MIT",
+  "homepage": "https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/hooks#readme",
+  "sideEffects": false,
+  "scripts": {
+    "test:ci": "jest --ci",
+    "test:watch": "jest --watchAll",
+    "build": "yarn build:umd && yarn build:esm",
+    "build:umd": "babel src -d lib/umd -s --extensions '.ts,.tsx' --config-file ../../babel.config.js --plugins @babel/plugin-transform-modules-umd",
+    "build:esm": "babel src -d lib/esm -s --extensions '.ts,.tsx' --config-file ../../babel.config.js",
+    "typescript": "tsc -p tsconfig.tsc.json --outDir lib/types"
+  },
+  "dependencies": {
+    "@gunnarx2/utils": "^4.0.0",
+    "core-js": "^3.6.5",
+    "lodash": "^4.17.20",
+    "regenerator-runtime": "^0.13.4",
+    "tabbable": "^5.1.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.165"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunnarx2/gunnarx2-mono.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/gunnarx2/gunnarx2-mono/issues"
+  }
+}

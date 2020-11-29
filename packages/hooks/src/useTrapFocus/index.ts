@@ -1,0 +1,1 @@
+export { useTrapFocus } from './useTrapFocus';
