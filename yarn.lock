@@ -1067,6 +1067,18 @@
     unique-filename "^1.1.1"
     which "^1.3.1"
 
+"@gunnarx2/eslint-config-eslint-react@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@gunnarx2/eslint-config-eslint-react/-/eslint-config-eslint-react-4.0.0.tgz#e7a40d858ca9ad1cff3f3015329cebd71fe3f12c"
+  integrity sha512-tWB5Y6+/gaS1RLIS6C4fQgdzWl+DcimGGOD3TO8zKix9Fqkc3F4GtcGbFRkiFKKNLPD3p4inpbsi+7SSsAKq/g==
+  dependencies:
+    "@gunnarx2/prettier" "^4.0.1"
+
+"@gunnarx2/prettier@^4.0.0", "@gunnarx2/prettier@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@gunnarx2/prettier/-/prettier-4.0.1.tgz#608b1c1c679f9f4235beaa4b0b471b3ad134de55"
+  integrity sha512-Aw2KMpHJA+AzvWBXaaa+XQgPsvRayJqAX9dZzHvESy2wMJtdoLfbtAlqqGU32h3qvLmgogBsE31A6jIxLE3b6w==
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
