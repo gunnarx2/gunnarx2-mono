@@ -1,6 +1,6 @@
 {
   "name": "@gunnarx2/stylelint",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "private": false,
   "description": "Stylelint configuration",
   "main": "lib/index.js",
