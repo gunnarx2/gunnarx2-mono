@@ -1,0 +1,1 @@
+export { isSSR } from './isSSR';
