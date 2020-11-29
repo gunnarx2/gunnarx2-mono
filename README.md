@@ -2,6 +2,15 @@
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
+## Packages
+
+- [@gunnarx2/hooks](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/hooks)
+- [@gunnarx2/utils](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/utils)
+- [@gunnarx2/eslint-react](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/eslint-react)
+- [@gunnarx2/markdownlint](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/markdownlint)
+- [@gunnarx2/prettier](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/prettier)
+- [@gunnarx2/stylelint](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/stylelint)
+
 ## Usage
 
 Recommended node version is defined in `.nvmrc`.
