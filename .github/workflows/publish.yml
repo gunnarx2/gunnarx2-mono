@@ -27,6 +27,8 @@ jobs:
         run: yarn lerna:run:typescript
       - name: Build 🏗
         run: yarn lerna:run:build
+      - name: ESLint 🖌
+        run: yarn eslint:report
       - name: Test 🖖
         run: yarn lerna:run:test:ci
       - name: Publish 🎉
