@@ -1,6 +1,6 @@
 {
   "name": "@gunnarx2/eslint-config-eslint-react",
-  "version": "2.2.33",
+  "version": "3.0.0",
   "private": false,
   "description": "ESLint React configuration",
   "main": "lib/index.js",
