@@ -6,7 +6,7 @@
   "main": "lib/index.js",
   "author": "gunnarx2",
   "license": "MIT",
-  "homepage": "https://github.com/gunnarx2/gunnarx2/tree/master/packages/{{package-name}}#readme",
+  "homepage": "https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/{{package-name}}#readme",
   "scripts": {
     "build": "babel src -d lib --extensions .js --config-file ../../babel.config.js"
   },
@@ -21,9 +21,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gunnarx2/gunnarx2.git"
+    "url": "git+https://github.com/gunnarx2/gunnarx2-mono.git"
   },
   "bugs": {
-    "url": "https://github.com/gunnarx2/gunnarx2/issues"
+    "url": "https://github.com/gunnarx2/gunnarx2-mono/issues"
   }
 }
