@@ -1,0 +1,32 @@
+{
+  "name": "@gunnarx2/markdownlint",
+  "version": "3.0.0",
+  "private": false,
+  "description": "Markdownlint configuration",
+  "main": "lib/index.js",
+  "author": "gunnarx2",
+  "license": "MIT",
+  "homepage": "https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/markdownlint#readme",
+  "scripts": {
+    "build": "babel src -d lib --copy-files"
+  },
+  "peerDependencies": {
+    "markdownlint-cli": "^0.24.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunnarx2/gunnarx2-mono.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gunnarx2/gunnarx2-mono/issues"
+  }
+}
