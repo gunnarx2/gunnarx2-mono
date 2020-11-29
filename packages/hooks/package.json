@@ -1,6 +1,6 @@
 {
   "name": "@gunnarx2/hooks",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "private": false,
   "description": "Collection of React hooks",
   "main": "lib/umd/index.js",
