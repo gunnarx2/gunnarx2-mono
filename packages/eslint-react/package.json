@@ -1,6 +1,6 @@
 {
   "name": "@gunnarx2/eslint-config-eslint-react",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "private": false,
   "description": "ESLint React configuration",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
     "build": "babel src -d lib --copy-files"
   },
   "dependencies": {
-    "@gunnarx2/prettier": "^4.0.1"
+    "@gunnarx2/prettier": "^4.0.2"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.0",
