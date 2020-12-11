@@ -34,7 +34,7 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "@babel/preset-typescript": "^7.12.1",
-    "@gunnarx2/eslint-config-eslint-react": "^4.0.0",
+    "@gunnarx2/eslint-config-eslint-react": "^4.0.2",
     "@gunnarx2/prettier": "^4.0.0",
     "@octokit/core": "^3.2.0",
     "@testing-library/dom": "^7.28.1",
