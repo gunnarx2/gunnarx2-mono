@@ -11,7 +11,9 @@ module.exports = {
       rules: {
         'no-undef': 'off',
         'no-use-before-define': 'off',
-        '@typescript-eslint/no-use-before-define': 'error'
+        '@typescript-eslint/no-use-before-define': 'error',
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': 'error'
       },
       parserOptions: {
         ecmaVersion: 2018,
