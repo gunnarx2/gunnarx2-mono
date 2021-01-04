@@ -22,8 +22,8 @@
     "lerna:run:test:watch": "lerna run test:watch --parallel",
     "lerna:run:typescript": "lerna run typescript",
     "lerna:run:build": "lerna run build",
-    "prettier:report": "prettier '**/*.{js,tsx,ts}' --check",
-    "prettier:fix": "prettier '**/*.{js,tsx,ts}' --write",
+    "prettier:report": "prettier '**/*.{js,tsx,ts,json}' --check",
+    "prettier:fix": "prettier '**/*.{js,tsx,ts,json}' --write",
     "eslint:report": "eslint '**/*.{js,tsx,ts}'",
     "eslint:fix": "eslint '**/*.{js,tsx,ts}' --fix"
   },

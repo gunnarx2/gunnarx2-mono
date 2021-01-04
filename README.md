@@ -70,7 +70,7 @@ Build all packages.
 Report any [Prettier](https://prettier.io/) issues.
 
 **Prettier fix** - `yarn prettier:fix`  
-Fix any [Prettier](https://prettier.io/) issues. Prettier is added to ESLint, so it's recommended to run `yarn eslint:fix`.
+Fix any [Prettier](https://prettier.io/) issues.
 
 **ESLint report** - `yarn eslint:report`  
 Report any [ESLint](https://eslint.org/) issues.

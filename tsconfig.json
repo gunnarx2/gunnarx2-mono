@@ -1,10 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "es2015",
-      "dom"
-    ],
+    "lib": ["es2015", "dom"],
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -16,8 +13,5 @@
     "declaration": true,
     "emitDeclarationOnly": true
   },
-  "exclude": [
-    "node_modules",
-    "lib"
-  ]
+  "exclude": ["node_modules", "lib"]
 }
