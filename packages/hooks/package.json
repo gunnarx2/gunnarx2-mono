@@ -1,6 +1,6 @@
 {
   "name": "@gunnarx2/hooks",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "private": false,
   "description": "Collection of React hooks",
   "main": "lib/umd/index.js",
@@ -20,7 +20,7 @@
     "typescript": "tsc -p tsconfig.tsc.json --outDir lib/types"
   },
   "dependencies": {
-    "@gunnarx2/utils": "^4.0.1",
+    "@gunnarx2/utils": "^4.0.2",
     "core-js": "^3.6.5",
     "lodash": "^4.17.20",
     "regenerator-runtime": "^0.13.4",

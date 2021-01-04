@@ -1,6 +1,6 @@
 {
   "name": "@gunnarx2/prettier",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "private": false,
   "description": "Prettier configuration",
   "main": "lib/index.js",
