@@ -1,8 +1,9 @@
 module.exports = {
-  extends: 'stylelint-config-sass-guidelines',
+  extends: ['stylelint-config-sass-guidelines', 'stylelint-config-prettier'],
+  plugins: ['stylelint-prettier'],
   ignoreFiles: ['**/*.{js,jsx,ts,tsx}'],
   rules: {
-    indentation: 2,
+    'prettier/prettier': true,
     'number-leading-zero': 'always',
     'selector-no-qualifying-type': null,
     'order/order': null,
