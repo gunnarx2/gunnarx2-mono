@@ -95,6 +95,12 @@ Report any [ESLint](https://eslint.org/) issues.
 **ESLint fix** - `yarn eslint:fix`  
 Fix any [ESLint](https://eslint.org/) issues.
 
+**Markdownlint report** - `yarn markdownlint:report`  
+Report any [Markdownlint](https://github.com/DavidAnson/markdownlint/) issues.
+
+**Markdownlint fix** - `yarn markdownlint:fix`  
+Fix any [Markdownlint](https://github.com/DavidAnson/markdownlint/) issues
+
 ## Lerna
 
 Using [Lerna](https://github.com/lerna/lerna) to manage scoped packages. Lerna is
