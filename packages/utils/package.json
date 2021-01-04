@@ -1,6 +1,6 @@
 {
   "name": "@gunnarx2/utils",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "private": false,
   "description": "Collection of utilities",
   "main": "lib/umd/index.js",
