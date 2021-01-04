@@ -6,11 +6,12 @@
 [![npm license](https://img.shields.io/npm/l/@gunnarx2/hooks)](https://www.npmjs.com/package/@gunnarx2/hooks)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-Collection of [React hooks](https://reactjs.org/docs/hooks-intro.html). Every hook supports [TypeScript](https://www.typescriptlang.org/) and Server-Side Rendering.
+Collection of [React hooks](https://reactjs.org/docs/hooks-intro.html). Every hook
+supports [TypeScript](https://www.typescriptlang.org/) and Server-Side Rendering.
 
 ## Installation
 
-```
+```shell
 yarn add @gunnarx2/hooks
 ```
 
@@ -49,7 +50,8 @@ export default Component;
 
 #### Reference - Event listener
 
-Default value for *element* is `window` if [isSSR](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/utils#server-side-rendering) returns `false`.
+Default value for *element* is `window` if [isSSR](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/utils#server-side-rendering)
+returns `false`.
 
 ```ts
 interface UseEventListener {
@@ -88,7 +90,9 @@ export default Component;
 
 #### Reference - Resize
 
-It uses [useEventListener()](#event-listener) to listen for *resize*. Will trigger `callback` on window resize. Passed `wait` parameter will [debounce](https://lodash.com/docs/4.17.20#debounce) the `callback` parameter.
+It uses [useEventListener()](#event-listener) to listen for *resize*. Will trigger
+`callback` on window resize. Passed `wait` parameter will [debounce](https://lodash.com/docs/4.17.20#debounce)
+the `callback` parameter.
 
 ```ts
 const useResize = (
@@ -120,7 +124,8 @@ export default Component;
 
 #### Reference - Window size
 
-It uses [useResize()](#resize) to listen for *resize*. Passed `wait` parameter will [debounce](https://lodash.com/docs/4.17.20#debounce) the `callback` parameter.
+It uses [useResize()](#resize) to listen for *resize*. Passed `wait` parameter will
+[debounce](https://lodash.com/docs/4.17.20#debounce) the `callback` parameter.
 
 ```ts
 const useWindowSize = (
@@ -190,7 +195,9 @@ export default Component;
 
 #### Reference - Scroll
 
-It uses [useEventListener()](#event-listener) to listen for *scroll*, so default *element* is `window`. Passed `wait` parameter will [throttle](https://lodash.com/docs/4.17.20#throttle) the `callback` parameter.
+It uses [useEventListener()](#event-listener) to listen for *scroll*, so default
+*element* is `window`. Passed `wait` parameter will [throttle](https://lodash.com/docs/4.17.20#throttle)
+the `callback` parameter.
 
 ```ts
 interface Scroll {
@@ -243,22 +250,26 @@ It uses [useEventListener()](#event-listener) to listen for *keydown*.
 
 ##### Include container
 
-Include container in the tabbable nodes. In the example above it would result in `trapRef`.  
+Include container in the tabbable nodes. In the example above it would result in
+`trapRef`.  
 Default: `false`.
 
 ##### Initial focus
 
-Set *node* or *'container'* as initial focus. For *'container'* to work you need to set `includeContainer: true`.  
+Set *node* or *'container'* as initial focus. For *'container'* to work you need
+to set `includeContainer: true`.  
 Default: `null`.
 
 ##### Return focus
 
-Return focus to the element that had focus before trapped. This will be executed when component unmounts.  
+Return focus to the element that had focus before trapped. This will be executed
+when component unmounts.  
 Default: `true`.
 
 ##### Update nodes
 
-Update tabbable nodes on each tab, can be useful if nodes is rendered dynamically in some way.  
+Update tabbable nodes on each tab, can be useful if nodes is rendered dynamically
+in some way.  
 Default: `false`.
 
 ```ts

@@ -10,7 +10,7 @@ Configuration for [markdownlint-cli](https://github.com/igorshubovych/markdownli
 
 ## Installation
 
-```
+```shell
 yarn add @gunnarx2/markdownlint markdownlint-cli@^0.24.0 -D
 ```
 

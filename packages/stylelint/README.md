@@ -10,7 +10,7 @@ Extendable [Stylelint](https://stylelint.io/) configuration.
 
 ## Installation
 
-```
+```shell
 yarn add @gunnarx2/stylelint stylelint@^13.7.2 stylelint-config-sass-guidelines@^7.1.0 -D
 ```
 

@@ -8,6 +8,6 @@
 
 ## Installation
 
-```
+```shell
 yarn add @gunnarx2/{{package-name}}{{package-dev}}
 ```

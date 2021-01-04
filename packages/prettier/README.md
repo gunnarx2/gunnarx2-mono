@@ -10,7 +10,7 @@ Configuration for [Prettier](https://prettier.io/).
 
 ## Installation
 
-```
+```shell
 yarn add @gunnarx2/prettier prettier@^2.1.2 -D
 ```
 

@@ -6,11 +6,12 @@
 [![npm license](https://img.shields.io/npm/l/@gunnarx2/utils)](https://www.npmjs.com/package/@gunnarx2/utils)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
-Collection of utilities. Every utility supports [TypeScript](https://www.typescriptlang.org/) and Server-side rendering.
+Collection of utilities. Every utility supports [TypeScript](https://www.typescriptlang.org/)
+and Server-side rendering.
 
 ## Installation
 
-```
+```shell
 yarn add @gunnarx2/utils
 ```
 
