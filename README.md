@@ -4,12 +4,11 @@
 
 ## Packages
 
+<!-- markdownlint-disable MD044 -->
 - [@gunnarx2/hooks](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/hooks)
 - [@gunnarx2/utils](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/utils)
-<!-- markdownlint-disable-next-line MD044 -->
 - [@gunnarx2/eslint-react](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/eslint-react)
 - [@gunnarx2/markdownlint](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/markdownlint)
-<!-- markdownlint-disable-next-line MD044 -->
 - [@gunnarx2/prettier](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/prettier)
 - [@gunnarx2/stylelint](https://github.com/gunnarx2/gunnarx2-mono/tree/master/packages/stylelint)
 
